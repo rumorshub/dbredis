@@ -1,0 +1,8 @@
+db:
+  redis: # for all options look inside redis.UniversalOptions struct
+    foo: # name of channel
+      addrs:
+        - 127.0.0.1:26379
+      username:
+      password:
+      ping: false
